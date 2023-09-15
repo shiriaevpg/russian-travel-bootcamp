@@ -1,0 +1,11 @@
+.place {
+    min-width: 320px;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .place {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

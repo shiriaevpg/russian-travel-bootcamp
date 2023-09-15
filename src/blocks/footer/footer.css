@@ -1,0 +1,29 @@
+.footer {
+    min-width: 320px;
+    padding: 56px 0 0 32px;
+}
+
+@media (min-width: 768px) {
+    .footer {
+        display: flex;
+        width: 720px;
+        padding: 102px 0 0 24px;
+        gap: 19px;
+        align-self: start;
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer {
+        padding: 95px 0 0 48px;
+        gap: 19px;
+        width: 928px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .footer {
+        padding: 35px 0 0 48px;
+        width: 1184px;
+    }
+}

@@ -1,0 +1,32 @@
+.intro__list {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    list-style-type: none;
+    margin: 0;
+    padding: 32px 0 0 16px;
+}
+
+@media (min-width: 768px) {
+    .intro__list {
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 18px;
+        padding: 32px 0 0 24px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .intro__list {
+        padding: 32px 0 0 48px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .intro__list {
+        padding: 32px 0 0 148px;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 18px;
+    }
+}

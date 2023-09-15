@@ -1,0 +1,25 @@
+.cover {
+    padding: 62px 0 0 0;
+    height: 62.5vw;
+}
+
+@media (min-width: 768px) {
+    .cover {
+        padding: 62px 0 0 0;
+        height: 62.5vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+@media (min-width: 1024px) {
+    .cover{
+        padding: 96px 0 0 0;
+    }
+}
+@media (min-width: 1280px) {
+    .cover {
+        display: flex;
+        flex-direction: column;
+    }
+}
