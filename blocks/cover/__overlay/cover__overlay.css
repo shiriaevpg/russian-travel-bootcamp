@@ -1,0 +1,30 @@
+.cover__overlay {
+    background-image: url("../../../images/overlay.jpeg");
+    background-size: cover;
+    width: 100%;
+    min-height: 62.5vw;
+    position: absolute;
+    z-index: -1;
+}
+
+@media (min-width: 768px) {
+    .cover__overlay {
+        padding-top: 15px;
+    }
+}
+
+@media (min-width: 1024px){
+    .cover__overlay{
+        min-height: 60.8vw;
+    }
+}
+
+@media (min-width: 1280px) {
+    .cover__overlay {
+        max-width: 1184px;
+        min-height: 740px;
+        align-self: center;
+        justify-self: center;
+        place-self: center;
+    }
+}

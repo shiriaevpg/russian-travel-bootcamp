@@ -1,0 +1,18 @@
+.footer__links {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .footer__links{
+        flex-direction: row;
+        min-width: 60%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer__links{
+    min-width: 40%;
+    }
+}

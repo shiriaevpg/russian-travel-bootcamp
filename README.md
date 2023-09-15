@@ -17,4 +17,4 @@
 
 **Github Pages**
 
-[Ссылка](https://shiriaevpg.github.io/russian-travel-bootcamp/src/index.html)
+[Ссылка](https://shiriaevpg.github.io/russian-travel-bootcamp/index.html)
