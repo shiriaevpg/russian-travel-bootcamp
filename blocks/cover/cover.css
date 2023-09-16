@@ -1,25 +1,27 @@
 .cover {
-    padding: 62px 0 0 0;
-    height: 62.5vw;
+    padding: 85px 0 0 0;
+    max-height: 62.5vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 @media (min-width: 768px) {
     .cover {
-        padding: 62px 0 0 0;
-        height: 62.5vw;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
+        padding: 210px 0 0 0;
+
     }
 }
+
 @media (min-width: 1024px) {
-    .cover{
-        padding: 96px 0 0 0;
+    .cover {
+        padding: 290px 0 0 0;
+        width: 100%;
     }
 }
+
 @media (min-width: 1280px) {
     .cover {
-        display: flex;
-        flex-direction: column;
+        padding: 340px 0 0 0;
     }
 }

@@ -6,6 +6,18 @@
 @media (min-width: 768px) {
     .place {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 384px 1fr;
+    }
+}
+@media (min-width: 1024px) {
+    .place {
+        display: grid;
+        grid-template-columns: 512px 1fr;
+    }
+}
+@media (min-width: 1280px) {
+    .place {
+        display: grid;
+        grid-template-columns: 640px 1fr;
     }
 }

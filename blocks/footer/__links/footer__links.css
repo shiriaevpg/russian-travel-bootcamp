@@ -7,12 +7,20 @@
 @media (min-width: 768px) {
     .footer__links{
         flex-direction: row;
-        min-width: 60%;
+        min-width: 67%;
+        margin-left: 23px;
     }
 }
 
 @media (min-width: 1024px) {
     .footer__links{
-    min-width: 40%;
+        min-width: 50%;
+        padding-left: 25px;
+    }
+}
+@media (min-width: 1280px){
+    .footer__links {
+        min-width: 36%;
+        padding-left: 26px;
     }
 }

@@ -1,5 +1,5 @@
 .footer__copyright {
-    padding: 48px 0 0 0;
+    padding: 34px 0 0 0;
     display: block;
     font-size: 14px;
     font-weight: 400;
@@ -9,7 +9,20 @@
 @media (min-width: 768px) {
     .footer__copyright {
         line-height: 16px;
-        padding: 0;
-        margin-left: auto;
+        padding: 0px 0px 0px 21px;
+        margin-left: 32px;
+    }
+}
+@media (min-width: 1024px) {
+    .footer__copyright {
+    line-height: 16px;
+    padding: 0px 0px 0px 21px;
+    margin-left: 243px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .footer__copyright {
+    margin-left: 496px;
     }
 }
